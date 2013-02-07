@@ -1,0 +1,8 @@
+<h2>Gallery Using Gallery Listing Template</h2>
+<ul>
+{{ entries:listing folder="gallery" limit="3" taxonomy="no" }}
+<li>
+  <h2><a href="{{ url }}">{{ title }}</a></h2>
+</li>
+{{ /entries:listing }}
+</ul>
